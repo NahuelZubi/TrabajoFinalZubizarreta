@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>lqueen</title>
+        <style>
+            html {
+              font-family: sans-serif;
+            }
+      
+            body {
+              margin: 0;
+            }
+      
+            header {
+              background: purple;
+              height: 100px;
+            }
+      
+            h1 {
+              text-align: center;
+              color: white;
+              line-height: 100px;
+              margin: 0;
+            }
+      
+            article {
+              padding: 10px;
+              margin: 10px;
+              background: aqua;
+            }
+      
+            /* Add your flexbox CSS below here */
+      
+            section {
+              display: flex;
+            }
+      
+            article {
+              flex: 1 200px;
+            }
+      
+            article:nth-of-type(3) {
+              flex: 3 200px;
+              display: flex;
+              flex-flow: column;
+            }
+      
+            article:nth-of-type(3) div:first-child {
+              flex: 1 100px;
+              display: flex;
+              flex-flow: row wrap;
+              align-items: center;
+              justify-content: space-around;
+            }
+      
+            button {
+              flex: 1 auto;
+              margin: 5px;
+              font-size: 18px;
+              line-height: 1.5;
+            }
+            
+          </style>
+</head>
+<body>
+<header>
+    <section>
+        <article>
+<button><a href="/index.html">Home</a></button>
+<button><a href="/views/music/music.html">Música</a></button>
+<button><a href="/views/dates/dates.html">Fechas en Vivo</a></button>
+<button><a href="/views/news/news.html">Noticias</a></button>
+<button><a href="/views/contact/contact.html">Contacto</a></button>
+</article>
+</section>
+</header>
+<section>
+    <article><h2>Un poco de Historia</h2></article>
+    <article><p>Originario de Ciudadela, Provincia de Buenos Aires. Dedicado durante años en diversos géneros buscando mi propio estilo (rap, rock, techno, etc.)</p></article>
+    <article><button></button><button></button><button></button></article>
+</section>
+<footer>
+    
+        <div class="redes">
+            <i class="fa-brands fa-youtube">Youtube</i>
+            <i class="fa-brands fa-x-twitter">Formerly X</i>
+            <i class="fa-brands fa-instagram">Instagram</i>
+            <i class="fa-brands fa-tiktok">Tik-Tok</i>
+        </div>
+</footer>
+</body>
+</html> 

@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Pixelify Sans;
+}
+a {
+text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.contenedor{
+    width: 60%;
+    max-width: 1000px; 
+    margin: auto;
+}
+.logo{
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    width: 110px;
+    height: 110px;
+}
+header{
+    background: url(images/fondo.jpg);
+    height: 20%;
+}
+
+header .menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+header .logo-y-menu{
+display: flex;
+align-items: center;
+}
+header .logo-y-menu img{
+    padding: 15px 25px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #d914eb;
+    border: none;
+    border-radius: 15px;
+    }
+header .logo-y-menu h1{
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 15px 25px;
+        font-size: 12px;
+        text-align: end;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #d914eb;
+        border: none;
+        }
+nav ul {
+    display: flex;
+}
+
+nav ul li a{
+    padding: 15px 25px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #d914eb;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999; 
+}
+nav ul li a:hover {background-color: #efb3af}
+  
+nav ul li a:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+header a, .botones a {
+    background: purple;
+}
+header .titular {
+    margin-top: 5vh;
+}
+h1 {
+    font-size: 30px;
+}
+.blanco {
+background: white   !important;
+}
+
+.white {
+    background: white !important;
+}
+
+#musica {
+    background-color: rgb(246, 20, 235)
+}
+
+#musica h2 {
+    margin: 0;
+    color: none;
+    border: 1px solid black;
+    width: 230px;
+    padding: 40px;
+    border-radius: 50px;
+}
+
+#musica .contenedor{
+    display: flex;
+    align-items: center;
+}
+
+#musica span {
+color: blueviolet;
+text-decoration: underline;
+}
+
+#musica h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#musica p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#musica img {
+    width: 100%;
+}
+#musica .texto {
+    width: 50%;
+}
+
+#musica .foto {
+    width: 40%;  
+}
+
+
+#about h4 {
+    color:black
+}
+
+#about p, #tour p {
+    font-family: Poppins;
+}
+
+.negro  {
+    background: palevioletred !important;
+}
+
+#about {
+    padding: 100px 0;
+}
+
+#tour {
+    background: rgb(228, 71, 228)
+    padding-box
+}
+
+#tour img{
+    width: 100%;
+}
+
+#tour .texto {
+width: 50%;
+}
+
+#tour .imagen {
+    width: 40%;
+    position: relative;
+    top: -30px;
+}
+
+#tour .contenedor {
+    display: flex;
+    justify-content: space-around;
+}
+
+#tour h4{
+    color:black
+    
+}
+
+.fechas {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.fechas .numero {
+    font-size: 34px;
+}
+
+.fechas h5 .fechas p {
+    margin: 0%;
+}
+
+.fechas h5{
+    font-size: 20px;
+}
+
+.fechas a {
+    background: white;
+    color: black;
+
+}
